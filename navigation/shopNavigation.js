@@ -17,7 +17,7 @@ function App() {
           headerTintColor: "white",
         }}
       >
-        <Stack.Screen name="Home" component={ProductsOverviewScreen} />
+        <Stack.Screen name="All Products" component={ProductsOverviewScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
