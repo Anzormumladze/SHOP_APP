@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 const ProductsOverviewScreen = () => {
   return (
     <View>
-      <Text>ProductsOverviewScreen</Text>
+      <Text>gela</Text>
     </View>
   );
 };

@@ -1,14 +1,16 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { Provider } from "react-redux";
-import store from "./store/storeRedux/store";
+import Navigation from "./navigation/shopNavigation";
+import { createStore } from "redux";
+import rootReducer from "./store/rootReducer/rootReducer";
+
+const store = createStore(rootReducer);
 
 export default function App() {
   return (
     <Provider store={store}>
-      <View>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
+      <Navigation />
     </Provider>
   );
 }
