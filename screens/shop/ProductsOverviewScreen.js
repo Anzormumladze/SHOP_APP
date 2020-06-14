@@ -13,6 +13,12 @@ const ProductsOverviewScreen = (props) => {
           image={itemData.item.imageUrl}
           title={itemData.item.title}
           price={itemData.item.price}
+          onViewDetail={() => {
+            console.log("CLICKED");
+          }}
+          onAddToCart={() => {
+            console.log("CLICKED2");
+          }}
         />
       )}
     />
