@@ -18,6 +18,12 @@ function App() {
           headerStyle: {
             backgroundColor: Colors.primary,
           },
+          headerTitleStyle: {
+            fontFamily: "open-sans-bold",
+          },
+          headerBackTitle: {
+            fontFamily: "open-sans-bold",
+          },
           headerTintColor: "white",
         }}
       >
